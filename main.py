@@ -1,7 +1,11 @@
 # Write your code below this line 👇
 print("Hello, Taha!")
+# Check the number of Charcters in an input
+string=input("\nEnter a string: ")
+number=len(string)
+print(f"\n'{string}' has {number} characters")
 # Check if the number is odd or even
-string=input("Enter the number you wish to check:")
+string=input("\nEnter the number you wish to check: ")
 
 number=int(string)
 
